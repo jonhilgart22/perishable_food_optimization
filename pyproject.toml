@@ -8,6 +8,10 @@ authors = ["Jonathan Hilgart <jonathan.hilgart@gmail.com>"]
 python = "3.9"
 darts = "^0.16.1"
 cvxpy = "^1.1.18"
+pymc3 = "^3.11.4"
+scikit-survival = "^0.17.0"
+scipy = "^1.7.3"
+seaborn = "^0.11.2"
 
 
 [tool.poetry.dev-dependencies]
