@@ -1819,6 +1819,14 @@ optional = false
 python-versions = ">=3.5"
 
 [[package]]
+name = "pykalman"
+version = "0.9.5"
+description = "An implementation of the Kalman Filter, Kalman Smoother, and EM algorithm in Python"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "pymc3"
 version = "3.11.4"
 description = "Probabilistic Programming in Python: Bayesian Modeling and Probabilistic Machine Learning with Theano"
@@ -2595,7 +2603,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = "3.9"
-content-hash = "616a30541b236a7bd5a6ce72fca10b0ef3cbd62d419050643b3d081dced700e2"
+content-hash = "5b00f4e129f6020544f9d4459e1ff312104d4d2248ff3a553e1c19e3cb647875"
 
 [metadata.files]
 absl-py = [
@@ -3831,6 +3839,9 @@ pyflakes = [
 pygments = [
     {file = "Pygments-2.11.2-py3-none-any.whl", hash = "sha256:44238f1b60a76d78fc8ca0528ee429702aae011c265fe6a8dd8b63049ae41c65"},
     {file = "Pygments-2.11.2.tar.gz", hash = "sha256:4e426f72023d88d03b2fa258de560726ce890ff3b630f88c21cbb8b2503b8c6a"},
+]
+pykalman = [
+    {file = "pykalman-0.9.5.tar.gz", hash = "sha256:816af47720d924a4c6016fa74b9e2c8c21165a08d91693c322a1741e8e07fb38"},
 ]
 pymc3 = [
     {file = "pymc3-3.11.4-py3-none-any.whl", hash = "sha256:cd560788c522df16f88467f9195412f6052a724ced5eb6c98bbfea5dbcafe8b1"},
